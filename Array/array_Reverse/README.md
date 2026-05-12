@@ -77,4 +77,4 @@ Reversed, it becomes:
 
 ---
 
-Also read for  more on : (Read Article )[https://steps-to-tech-world.hashnode.dev/]
+Also read for  more on : [Read Article](https://steps-to-tech-world.hashnode.dev)
