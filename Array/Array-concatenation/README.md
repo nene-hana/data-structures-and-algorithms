@@ -37,4 +37,5 @@ In Python, `+` on two lists concatenates them , so `nums + nums` directly produc
 
 ---
 
-for more read on (article)[https://steps-to-tech-world.hashnode.dev/]
+
+Also read for  more on : [Read Article](https://steps-to-tech-world.hashnode.dev)
