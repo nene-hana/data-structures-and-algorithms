@@ -29,13 +29,13 @@ class Solution:
 
 ## How it works
 
-The array has two halves — `nums[0:n]` is the x values, `nums[n:]` is the y values.
+The array has two halves ; `nums[0:n]` is the x values, `nums[n:]` is the y values.
 
 Loop from `0` to `n-1` and pick one element from each half alternately:
-- `nums[i]` → element from first half
-- `nums[i + n]` → matching element from second half (`+n` shifts to the same position in second half)
+- `nums[i]` : element from first half
+- `nums[i + n]` : matching element from second half (`+n` shifts to the same position in second half)
 
-Only loop `range(n)` — not the full array ,otherwise `nums[i + n]` goes out of bounds.
+Only loop `range(n)` : not the full array ,otherwise `nums[i + n]` goes out of bounds.
 
 
 
@@ -48,7 +48,7 @@ Only loop `range(n)` — not the full array ,otherwise `nums[i + n]` goes out of
 ## What I learned
 
 - `nums[i + n]` pattern to access matching elements in the second half
-- Why `range(n)` and not `range(len(nums))` — avoid index out of bounds
+- Why `range(n)` and not `range(len(nums))` , avoid index out of bounds
 - Difference between `i` (index) and `nums[i]` (value at that index)
 
 ---
